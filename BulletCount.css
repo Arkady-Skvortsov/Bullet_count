@@ -1,0 +1,172 @@
+	@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+		.magazine-block {
+			position: absolute;
+			height: 100px;
+			width: 400px;
+			margin-top: 300px;
+			margin-left: 1000px;
+			background-color: white;
+		}
+
+		.magazine-block .magazine {
+			height: 100px;
+			width: 200px;
+			float: left;
+			cursor: pointer;
+			background-color: black;
+		}
+
+		.magazine-block .magazine #c1 {
+			font-size: 50px;
+			font-family: 'Special Elite', cursive;
+			text-align: center;
+			margin-top: 30px;
+			color: white;
+			cursor: pointer;
+      transition: 900ms ease;
+      -o-transition: 900ms ease;
+      -mozila-transition: 900ms ease;
+      -webkit-transition: 900ms ease;
+		}
+
+    .magazine-block .magazine #c1:hover {
+      color: green;
+    }
+
+	    .magazine-block .plus-block {
+	    	height: 100px;
+	    	width: 100px;
+	    	cursor: pointer;
+	    	float: right;
+	    	background-color: gold;
+            transition: 900ms ease;
+            -o-transition: 900ms ease;
+            -webkit-transition: 900ms ease;
+            -mozila-transition: 900ms ease;
+   	    }
+
+        .magazine-block .plus-block #p {
+        	font-size: 50px;
+        	margin-top: 25px;
+        	margin-left: 30px;
+        	transition: 900ms ease;
+        	-o-transition: 900ms ease;
+        	-webkit-transition: 900ms ease;
+        	-mozila-transition: 900ms ease;
+        }
+
+        .magazine-block .plus-block #p:hover {
+        	transform: rotate(-180deg);
+        }
+
+        .Reload {
+        	position: absolute;
+        	height: 100px;
+        	width: 200px;
+        	margin-top: 180px;
+        	background-color: black;
+        	border-radius: 20px;
+        	margin-left: 600px;
+        	transition: 900ms ease;
+        	-o-transition: 900ms ease;
+        	-mozila-transition: 900ms ease;
+        	-webkit-transition: 900ms ease;
+        }
+
+        .Reload:hover {
+        	background-color: orange;
+        }
+
+
+        .Reload span {
+           font-size: 25px;
+           font-family: 'Special Elite', cursive;
+           cursor: pointer;
+           position: absolute;
+           margin-top: 40px;
+           margin-left: 60px;
+           color: orange;
+           transition: 900ms ease;
+           -o-transition: 900ms ease;
+           -mozila-transition: 900ms ease;
+           -webkit-transition: 900ms ease;
+        }
+
+        .Reload span:hover {
+        	color: black;
+        }
+
+        .Reload-block {
+        	position: absolute;
+        	height: 100px;
+        	width: 200px;
+        	background-color: black;
+        	margin-top: 380px;
+        	margin-left: 600px;
+        	cursor: pointer;
+        }
+
+        .Reload-block #c2 {
+            font-size: 50px;
+            text-align: center;
+            font-family: 'Special Elite', cursive;
+            margin-top: 30px;
+            color: white;
+            transition: 900ms ease;
+            -o-transition: 900ms ease;
+            -mozila-transition: 900ms ease;
+            -webkit-transition: 900ms ease;
+        }
+
+        .Reload-block #c2:hover {
+        	color: green;
+        }
+        
+        .shoot {
+        	height: 100px;
+        	width: 200px;
+        	border-radius: 20px;
+        	position: absolute;
+        	margin-top: 300px;
+        	margin-left: 300px;
+        	cursor: pointer;
+        	background-color: black;
+        	transition: 900ms ease;
+        	-o-transition: 900ms ease;
+        	-webkit-transition: 900ms ease;
+        	-mozila-transition: 900ms ease;
+        }
+
+        .shoot:hover {
+        	background-color: orange;
+        }
+
+        .shoot #s {
+        	font-size: 25px;
+        	position: absolute;
+        	font-family: 'Special Elite', cursive;
+        	margin-left: 70px;
+        	margin-top: 35px;
+        	color: orange;
+        	transition: 900ms ease;
+        	-o-transition: 900ms ease;
+        	-webkit-transition: 900ms ease;
+        	-mozila-transition: 900ms ease;
+        }
+
+        .shoot #s:hover {
+        	color: black;
+        }
+
+        .magazine.d {
+            background-color: green;
+        }
+
+        .Reload-block.g {
+        	background-color: green;
+        }
+
+        .Reload-block.minus {
+        	background-color: red;
+        }
